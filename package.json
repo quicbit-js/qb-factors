@@ -1,0 +1,33 @@
+{
+  "name": "qb-factors",
+  "version": "1.0.0",
+  "description": "qb-factors",
+  "homepage": "https://github.com/quicbit-js/qb-factors",
+  "url": "https://github.com/quicbit-js/qb-factors/issues",
+  "email": "support@quicbit.com",
+  "repository": "quicbit-js/qb-factors",
+  "devDependencies": {
+    "tape": "^4.8.0",
+    "test-kit": "^2.8.5"
+  },
+  "scripts": {
+    "test": "tape test.js",
+    "cov": "tap --coverage-report=html test.js"
+  },
+  "keywords": [
+    "fast",
+    "compact",
+    "minimal",
+    "qb",
+    "qb1",
+    "quicbit",
+    "data",
+    "performance"
+  ],
+  "files": [
+    "index.js",
+    "test.js"
+  ],
+  "author": "Matthew Voss",
+  "license": "ISC"
+}
